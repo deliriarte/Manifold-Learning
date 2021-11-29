@@ -18,3 +18,6 @@ The project is organized in two main folders:
      * 1.4  Transfer learning method using the Human Connectome Project (HCP).
      
  - Regularization: in this folder you can find the notebook used to perform elasticnet regression on the extracted features and the behavioral scores. 
+
+
+In notebook utilites you can find main .py notebooks containing general function used between all the other jupyter notebooks.
