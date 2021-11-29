@@ -17,7 +17,7 @@ The project is organized in two main folders:
      * 1.3  Convolutional Autoencoder applied to the augmentated data obtained by mix-up strategy from the original dataset.
      * 1.4  Transfer learning method using the Human Connectome Project (HCP).
      
- - Regularization: in this folder you can find the notebook used to perform elasticnet regression on the extracted features and the behavioral scores. 
+ - Regularization: in this folder you can find the notebook used to perform elasticnet regression on the extracted features and the behavioral scores. The parameters of the model were obtained using LOOCV. --- now running with NESTED LOOCV (to be upload) 
 
 
 In notebook utilites you can find main .py notebooks containing general function used between all the other jupyter notebooks.
