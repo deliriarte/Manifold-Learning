@@ -5,20 +5,16 @@ In addition, the extracted features are used as predictors of neurophsychologica
 
 The project is organized in two main folders:
 
-  \begin{itemize}
-  \item Feature extraction methods: this folder is subdivide into linear transformation models:
-        \begin{enumerate}
-            \item 1.1 Principal Component Analysis
-            \item 1.2 Independent Component Analysis
-            \item 1.3 AE with linear activation function: it consist of one dense layer with a linear activation function. This model is mainly to compare with the PCA (which the literature stated that they should be similar). 
-        \end{enumerate}
+
+ - Feature extraction methods: this folder is subdivide into linear transformation models:
+    *  1.1 Principal Component Analysis
+    * 1.2 Independent Component Analysis
+    * 1.3 AE with linear activation function: it consist of one dense layer with a linear activation function. This model is mainly to compare with the PCA (which the literature stated that they should be similar). 
         
         and non linear transformation models:
-        \begin{enumerate}
-            \item 1.1  AE with NON linear activation function: it consist of one dense layer with a non linear activation function (LeakyReLU).
-            \item 1.2  Convolutional Autoencoder applied directly to the stroke dataset. 
-            \item 1.3  Convolutional Autoencoder applied to the augmentated data obtained by mix-up strategy from the original dataset.
-            \item 1.4  Transfer learning method using the Human Connectome Project (HCP).
-        \end{enumerate}
-  \item Regularization: in this folder you can find the notebook used to perform elasticnet regression on the extracted features and the behavioral scores. 
-\end{itemize}
+     * 1.1  AE with NON linear activation function: it consist of one dense layer with a non linear activation function (LeakyReLU).
+     * 1.2  Convolutional Autoencoder applied directly to the stroke dataset. 
+     * 1.3  Convolutional Autoencoder applied to the augmentated data obtained by mix-up strategy from the original dataset.
+     * 1.4  Transfer learning method using the Human Connectome Project (HCP).
+     
+ -Regularization: in this folder you can find the notebook used to perform elasticnet regression on the extracted features and the behavioral scores. 
