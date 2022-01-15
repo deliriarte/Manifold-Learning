@@ -6,12 +6,13 @@ In addition, the extracted features are used as predictors of neurophsychologica
 The project is organized in two main folders:
 
 
- - Feature extraction methods: this folder is subdivide into linear transformation models:
+ **Feature extraction methods**: 
+ - this folder is subdivide into linear transformation models:
     *  1.1 Principal Component Analysis
     * 1.2 Independent Component Analysis
     * 1.3 AE with linear activation function: it consist of one dense layer with a linear activation function. This model is mainly to compare with the PCA (which the literature stated that they should be similar). 
         
-        and non linear transformation models:
+- and non linear transformation models:
      * 1.1  AE with NON linear activation function: it consist of one dense layer with a non linear activation function (LeakyReLU).
      * 1.2  Convolutional Autoencoder applied directly to the stroke dataset. 
      * 1.3  Convolutional Autoencoder applied to the augmentated data obtained by mix-up strategy from the original dataset.
@@ -19,7 +20,7 @@ The project is organized in two main folders:
      * Overcomplete Convolutional Autoencoder with L1 regularization
      * Overcomplete Convolutional Autoencoder with k-sparse regularization
      
- - Regularization: in this folder you can find the notebook used to perform elasticnet regression on the extracted features and the behavioral scores. The parameters of the model were obtained using LOOCV. --- now running with NESTED LOOCV (to be upload) 
+ **Regularization**: in this folder you can find the notebook used to perform elasticnet regression on the extracted features and the behavioral scores. The parameters of the model were obtained using LOOCV. --- now running with NESTED LOOCV (to be upload) 
 
 
 In notebook utilites you can find main .py notebooks containing general function used between all the other jupyter notebooks.
