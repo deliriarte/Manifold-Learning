@@ -1,7 +1,7 @@
 # Manifold-Learning
 
 Rs-fMRI data is highly dimensional and several feature extraction method can be perform in order to reduce the dimensionality of the data. The most common approaches are Principal component analysis (PCA) and Independent Component Analysis (ICA). However, these methods are essentially  linear transformation and cannot extract nonlinear structures. In order to overcome the nonlinear dimensionality reduction, an autoencoder can be implemented which, unlike PCA, can learn non-linear transformations with a non-linear activation function and multiple layers. In this project, we will used the stroke dataset available from previuous studies.
-In addition, the extracted features are used as predictors of neurophsychological score using languages scores as behavioral domain. This task is perform by simply solving a linear regression problem with several regularization methods, namely ElasticNET regression.
+In addition, the extracted features are used as predictors of neurophsychological score using languages scores as behavioral domain. This task is perform by simply solving a linear regression problem with **ElasticNET** regression.
 
 The project is organized in two main folders:
 
