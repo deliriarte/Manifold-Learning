@@ -21,7 +21,7 @@ The project is organized in two main folders:
      * 1.6 **Overcomplete** Convolutional Autoencoder with k-sparse regularization
      * 1.7 **Overcomplete** Transfer Learning with k-sparse regularization
      
- **Regularization**: in this folder you can find the notebook used to perform elasticnet regression on the extracted features and the behavioral scores. The parameters of the model were obtained using LOOCV. --- now running with NESTED LOOCV (to be upload) 
+ **Regularization**: in this folder you can find the notebook used to perform elasticnet regression on the extracted features and the behavioral scores. The parameters of the model were obtained using LOOCV and NESTED LOOCV.
 
 
 In notebook utilites you can find main .py notebooks containing general function used between all the other jupyter notebooks.
